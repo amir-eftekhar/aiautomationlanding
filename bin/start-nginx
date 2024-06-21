@@ -1,2 +1,7 @@
 #!/bin/sh
+
+printenv
+
+nginx -t -c $HOME/config/nginx.conf
+
 exec nginx -c $HOME/config/nginx.conf
