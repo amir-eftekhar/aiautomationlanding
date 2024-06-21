@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/aiautomationlanding/', // Ensure this matches your repository name
+  base: '/aiautomationlanding/', // Your repository name
   build: {
     outDir: 'dist'
   }
