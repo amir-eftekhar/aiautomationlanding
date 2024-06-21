@@ -9,16 +9,16 @@ http {
   keepalive_timeout  65;
 
   server {
-    listen 80;
+    listen <%= ENV["PORT"] %>;
     server_name localhost;
 
     location / {
-      root   <%= ENV['NGINX_ROOT'] %>;
+      root   <%= ENV["NGINX_ROOT"] %>;
       index  index.html index.htm;
     }
 
     location /assets {
-      root   <%= ENV['NGINX_ROOT'] %>;
+      root   <%= ENV["NGINX_ROOT"] %>;
       access_log off;
       expires 30d;
     }
