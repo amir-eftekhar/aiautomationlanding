@@ -3,18 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://amir-eftekhar.github.io/aiautomationlanding",
-
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build1": "vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
