@@ -20,15 +20,14 @@ const App = () => (
         <Stats />
         <Business />
         <Billing />
-        <CardDeal />
-        
+        <CardDeal />        
         <Testimonials />
         <Clients />
         <CTA />
         <Plans />
         <ContactSection/>
         <Footer />
-        <CursorEffect/>
+        {/*<CursorEffect/>*/}
       </div>
     </div>
   </div>
