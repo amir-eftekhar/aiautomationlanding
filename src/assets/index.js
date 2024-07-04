@@ -29,7 +29,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-
+import stanford from "./stanford-p-500.png"
+import websize from "./websizenewlogo.png"
+import buildspace from "./buildspace.webp"
+import Alovie from "./alovie.png"
+import SoloScale from "./SoloScale.png"
+import soloscalel from "./soloscalel.png"
 export {
   airbnb,
   bill,
@@ -40,9 +45,15 @@ export {
   logo,
   quotes,
   robot,
+  SoloScale,
   robot_hand,
+  soloscalel,
   time,
   magnet,
+  stanford,
+  websize,
+  buildspace,
+  Alovie,
   send,
   shield,
   star,

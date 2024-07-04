@@ -1,7 +1,14 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, CursorEffect, CTA, Footer, Navbar, Stats, Clients, ContactSection, Testimonials, Hero, Plans } from "./components";
-
-const App = () => (
+import { Billing, Business, CardDeal, CursorEffect, CTA, Footer, Navbar, Stats, Clients, ContactSection, Testimonials, Hero, Plans, Help, SampleServices} from "./components";
+import { stanford, websize, buildspace, Alovie } from "./assets";
+const App = () => {
+  const partners = [
+    { name: 'stanford', logo: stanford },
+    { name: 'websize', logo: websize },
+    { name: 'Alovie', logo: Alovie },
+    {name: 'buildspace', logo: buildspace}
+  ];
+  return (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
@@ -19,10 +26,11 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
-        <Billing />
-        <CardDeal />        
+        <Help />
+        <SampleServices/>
+        <Clients partners={partners} />        
         <Testimonials />
-        <Clients />
+        
         <CTA />
         <Plans />
         <ContactSection/>
@@ -32,5 +40,5 @@ const App = () => (
     </div>
   </div>
 );
-
+}
 export default App;

@@ -15,7 +15,8 @@ import Plans from "./plans";
 import ContactSection from "./Contact";
 import { Button1 } from "./Button";
 import CursorEffect from "./Cursor";
-
+import Help from "./Help";
+import SampleServices from "./SampleServices";
 export {
   Navbar,
   Billing,
@@ -28,9 +29,11 @@ CustomCursor,
   Clients,
   CursorEffect,
   CTA,
+  Help,
   Stats,
   Footer,
   Testimonials,
+  SampleServices,
   Hero,
   /*ContactUs,*/
   Plans,

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { close, logo,file, menu } from "../assets";
+import { close, logo,file, menu, soloscalel } from "../assets";
 import { navLinks } from "../constants";
 
 
@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={file} alt="Ai" className="w-[90px] h-[90px]" />
+      <img src={soloscalel} alt="Ai" className="w-[80px] h-[80px] rounded-full" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -79,7 +79,7 @@ const Navbar2 = () => {
 
   return (
     <nav className="w-250px flex py-4 justify-between items-center navbar rounded-xl shadow-lg bg-gray-800 fixed right-3 top-0 z-50">
-      <img src={file} alt="logo" className="w-[60px] h-[60px] rounded-ful ml-1" />
+      <img src={soloscalel} alt="logo" className="w-[60px] h-[60px] rounded-ful ml-1" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
